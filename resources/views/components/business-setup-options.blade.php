@@ -8,13 +8,13 @@
 
         <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
             @foreach([
-                ['Mainland',  'mainland-card.png',  '🏙️',
+                ['Mainland',  'mainland-card.jpg',  '🏙️',
                  'Trade freely across UAE with access to local markets and unlimited business opportunities.',
                  ['Trade anywhere in UAE','Local market access','Unlimited business activities','No profit repatriation limits']],
-                ['Freezone',  'freezone-card.png',  '🌐',
+                ['Freezone',  'freezone-card.jpg',  '🌐',
                  '100% ownership with affordable packages and fast company setup, ideal for startups and international businesses.',
                  ['100% foreign ownership','Low cost setup','Fast approval process','Tax exemptions available']],
-                ['Offshore',  'offshore-card.png',  '🌍',
+                ['Offshore',  'offshore-card.jpg',  '🌍',
                  'Perfect for international business operations with significant tax benefits and asset protection structures.',
                  ['International business structure','Tax benefits','Asset protection','Privacy & confidentiality']],
             ] as $card)

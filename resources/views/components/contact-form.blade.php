@@ -1,6 +1,6 @@
 <section id="contact" class="py-20 bg-navy relative overflow-hidden">
     <div class="absolute inset-0 opacity-10">
-        <img src="{{ asset('images/hero-bg.png') }}" class="w-full h-full object-cover" alt="">
+        <img src="{{ asset('images/hero-bg.jpg') }}" class="w-full h-full object-cover" alt="">
     </div>
     <div class="absolute inset-0 bg-navy/90"></div>
 

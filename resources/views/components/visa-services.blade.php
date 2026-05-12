@@ -28,7 +28,7 @@
             <div>
                 {{-- Visa Image --}}
                 <div class="relative mb-8 rounded-3xl overflow-hidden shadow-2xl">
-                    <img src="{{ asset('images/visa-doc.png') }}" alt="UAE Visa Services" class="w-full h-72 object-cover">
+                    <img src="{{ asset('images/visa-doc.jpg') }}" alt="UAE Visa Services" class="w-full h-72 object-cover">
                     <div class="absolute inset-0 bg-gradient-to-t from-navy/50 to-transparent"></div>
                 </div>
 

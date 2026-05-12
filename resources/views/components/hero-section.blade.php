@@ -7,7 +7,7 @@ $whatsapp = Setting::get('whatsapp', '971528455102');
 
     {{-- Background Image with Gradient Overlay --}}
     <div class="absolute inset-0 z-0">
-        <img src="{{ asset('images/hero-bg.png') }}" alt="Dubai Skyline" class="w-full h-full object-cover object-center">
+        <img src="{{ asset('images/hero-bg.jpg') }}" alt="Dubai Skyline" class="w-full h-full object-cover object-center">
         {{-- Left-to-Right dark overlay to make text pop --}}
         <div class="absolute inset-0 bg-gradient-to-r from-navy/95 via-navy/60 to-transparent"></div>
         {{-- Bottom-up dark overlay for icon strip readability --}}
