@@ -24,9 +24,9 @@
         <div class="flex items-center gap-3 h-full">
             <a href="{{ url('/') }}" class="relative group flex items-center h-full">
                 {{-- Hanging Logo Container --}}
-                <div class="relative z-20 w-18 h-18 md:w-28 md:h-28 bg-white rounded-full shadow-2xl border-4 border-navy flex items-center justify-center transition-all duration-300 group-hover:scale-105 overflow-hidden"
+                <div class="relative z-20 w-24 h-24 md:w-36 md:h-36 flex items-center justify-center transition-all duration-300 group-hover:scale-105"
                      style="margin-top: 15px;">
-                    <img src="{{ asset('images/logo.jpg') }}" alt="Elite Business Setup Logo" class="w-full h-full object-cover scale-[1.35]">
+                    <img src="{{ asset('images/logo.jpg') }}" alt="Elite Business Setup Logo" class="w-full h-full object-contain scale-[1.2]">
                 </div>
 
                 {{-- Logo Text --}}
