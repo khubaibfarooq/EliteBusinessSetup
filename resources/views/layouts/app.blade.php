@@ -26,7 +26,7 @@
                 {{-- Hanging Logo Container --}}
                 <div class="relative z-20 w-18 h-18 md:w-28 md:h-28 bg-white rounded-full shadow-2xl border-4 border-navy flex items-center justify-center transition-all duration-300 group-hover:scale-105 overflow-hidden"
                      style="margin-top: 15px;">
-                    <img src="{{ asset('images/logo.jpg') }}" alt="Elite Business Setup Logo" class="w-full h-full object-cover">
+                    <img src="{{ asset('images/logo.jpg') }}" alt="Elite Business Setup Logo" class="w-full h-full object-cover scale-[1.35]">
                 </div>
 
                 {{-- Logo Text --}}
@@ -91,7 +91,7 @@
             <div class="lg:col-span-1">
                 <a href="{{ url('/') }}" class="flex items-center gap-4 no-underline mb-8 group">
                     <div class="w-20 h-20 rounded-full flex items-center justify-center overflow-hidden bg-white shadow-xl border-2 border-gold/20">
-                        <img src="{{ asset('images/logo.jpg') }}" alt="Elite Business Setup Logo" class="w-full h-full object-cover">
+                        <img src="{{ asset('images/logo.jpg') }}" alt="Elite Business Setup Logo" class="w-full h-full object-cover scale-[1.35]">
                     </div>
                     <div class="leading-none">
                         <div class="text-white font-heading font-black text-2xl tracking-tight leading-none uppercase">Elite</div>

@@ -3,6 +3,7 @@
 @section('content')
     <x-hero-section />
     <x-quick-services />
+    <x-rakez-services />
     <x-about-section />
     <x-business-setup-options />
     <x-free-zones-list />
