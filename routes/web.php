@@ -12,6 +12,7 @@ use App\Http\Controllers\Admin\AdminFaqsController;
 
 // Public
 Route::get('/', fn() => view('home'))->name('home');
+Route::get('/services/{service}', [App\Http\Controllers\ServiceController::class, 'show'])->name('services.show');
 
 // Admin routes
 Route::prefix('admin')->name('admin.')->middleware(['auth'])->group(function () {

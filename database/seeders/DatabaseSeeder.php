@@ -57,6 +57,21 @@ class DatabaseSeeder extends Seeder
             Service::updateOrCreate(['title' => $s['title'], 'category' => 'quick'], $s);
         }
 
+        // RAKEZ Services
+        $rakezServices = [
+            ['title' => 'Golden & Green Visa',   'icon' => '🌟', 'category' => 'RAKEZ', 'description' => 'Get a 10-year Golden Visa or Green Visa for you and your family. Perfect for entrepreneurs and investors looking for long-term residency in UAE.', 'sort_order' => 1],
+            ['title' => 'Workers Protection',    'icon' => '🛡️', 'category' => 'RAKEZ', 'description' => 'Comprehensive workers protection insurance programme to safeguard your employees and meet UAE labor requirements.', 'sort_order' => 2],
+            ['title' => 'Employment Visa',       'icon' => '💼', 'category' => 'RAKEZ', 'description' => 'Hassle-free employment visa processing for your staff. Complete documentation and government submission handled by our experts.', 'sort_order' => 3],
+            ['title' => 'Student Visa',          'icon' => '🎓', 'category' => 'RAKEZ', 'description' => 'Support for student visa applications including institution verification, document preparation, and Emirates ID processing.', 'sort_order' => 4],
+            ['title' => 'Dependent Visa',        'icon' => '👨‍👩‍👧', 'category' => 'RAKEZ', 'description' => 'Bring your family to UAE with our dependent visa services. We handle spouse, children, and parents visa applications.', 'sort_order' => 5],
+            ['title' => 'Tourist Visa',          'icon' => '✈️', 'category' => 'RAKEZ', 'description' => 'Quick and easy tourist visa for visitors. Multiple entry options available for your convenience.', 'sort_order' => 6],
+            ['title' => 'Employment Contract',   'icon' => '📝', 'category' => 'RAKEZ', 'description' => 'Official employment contract registration and labor contract submission to ensure compliance with UAE labor laws.', 'sort_order' => 7],
+            ['title' => 'Other Services',        'icon' => '⚙️', 'category' => 'RAKEZ', 'description' => 'Additional RAKEZ services including business registration, permits, licenses, and government coordination.', 'sort_order' => 8],
+        ];
+        foreach ($rakezServices as $s) {
+            Service::updateOrCreate(['title' => $s['title'], 'category' => 'RAKEZ'], $s);
+        }
+
         // Free Zones
         $freeZones = [
             ['name' => 'Dubai Multi Commodities Centre',    'abbreviation' => 'DMCC',           'emirate' => 'Dubai',        'sort_order' => 1],
